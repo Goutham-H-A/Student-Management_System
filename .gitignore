@@ -1,0 +1,78 @@
+# Ignore build directories
+/target/
+/out/
+
+# Ignore Maven and Gradle specific files
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse files
+/.settings/
+/.project
+/.classpath
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+*.iws
+
+# NetBeans files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+
+# VS Code files
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+
+# Java specific files
+*.class
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Application-specific files
+*.db
+*.sql
+
+# Node.js dependencies (if using Node for front-end)
+/node_modules/
+
+# Environment variables file
+.env
+
+# JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea/
+
+# Other files
+*.log
+*.history
+*.DS_Store
+*.sass-cache
+*.eslintcache
+*.vs/
+.vscode/
+/
